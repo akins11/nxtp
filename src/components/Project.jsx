@@ -1,8 +1,7 @@
 "use client"
 
 import React, {useState} from 'react';
-// import {FaGithub} from 'react-icons/fa';
-import Tab from './tab';
+import Tab from './Tab';
 import ProjectContainer from './ProjectContainer';
 import {
     analyticalApps,
