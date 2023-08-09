@@ -81,7 +81,7 @@ export const dashboard = [
          and aggregated reanalysis.
         `,
         image: '/dashboard-img/product-dashboard2.jpg',
-        fullImage: '/dashboard-img/product-dashboard-full.png',
+        fullImage: '/dashboard-img/product-dashboard-full.jpg',
         tools: ["R", "RShiny", "Bootstrap"],
         projectLink: "https://akinwandeayomide.shinyapps.io/productDashboard/",
         githubLink: 'https://github.com/akins11/Product-Dashboard'
