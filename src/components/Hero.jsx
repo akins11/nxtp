@@ -9,7 +9,7 @@ const Hero = () => {
     <div id='home' className='w-full h-screen text-start'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 ps-5 md:ps-2 flex justify-start items-center'>
             <div>
-                <p className="uppercase mt-10 md:mt-0 text-sm tracking-widest  text-[#C4C4C4]">Data is the key to innovation</p>
+                <p className="uppercase mt-20 md:mt-0 text-sm tracking-widest  text-[#C4C4C4]">Data is the key to innovation</p>
                 <h1 className='py-2 text-[1.6rem] text-gray-800'>Hello, I'm <span className='text-[#6C757D]'>Ayomide</span></h1>
                 <h1 className='py-2 text-gray-800'>A Business Intelligence Analyst</h1>
                 <p className='py-4 text-gray-600 max-w-[70%]'>
