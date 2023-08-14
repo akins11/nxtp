@@ -22,7 +22,7 @@ const Navbar = () => {
     useEffect(() => {
   
       const handleShadow = () => {
-          if (window.scrollY >= 90) {
+          if (window.scrollY >= 80) {
               setShadow(true)
           } else {
               setShadow(false)
@@ -33,7 +33,7 @@ const Navbar = () => {
     }, []);
   
     return (
-      <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] bg-[#F8F9FA]' : 'fixed w-full h-20 z-[100]'}>
+      <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] backdrop-blur-md bg-white/30' : 'fixed w-full h-20 z-[100]'}>
           <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
               <Image className='rounded-md' src="/logo.png" alt='logo' width='70' height='70' />
   
