@@ -9,7 +9,7 @@ const ProjectItem = ({title, backgroundImg, projectID, Dtool}) => {
         <Image 
             className='rounded-md group-hover:opacity-5'
             src={backgroundImg}
-            alt='hotel project'
+            alt='project'
             width='600'
             height='550'
         />
