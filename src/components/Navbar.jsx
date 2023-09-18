@@ -33,26 +33,26 @@ const Navbar = () => {
     }, []);
   
     return (
-      <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] backdrop-blur-md bg-white/30' : 'fixed w-full h-20 z-[100]'}>
+      <div className={shadow ? 'fixed w-full h-20 shadow-lg z-[100] backdrop-blur-md bg-white/30' : 'fixed w-full h-20 z-[100]'}>
           <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
               <Image className='rounded-md' src="/logo.png" alt='logo' width='70' height='70' />
   
               <div className='mr-4'>
                   <ul className='hidden md:flex'>
                       <Link href="/#home">
-                          <li className='ml-10 text-sm uppercase border-b-2 text-[#212529] border-[#F8F9FA] hover:border-[#212529] duration-300'>Home</li>
+                          <li className='ml-10 text-sm uppercase border-b-2 text-[#212529] border-transparent hover:border-[#212529] duration-300'>Home</li>
                       </Link>
                       <Link href="/#about">
-                          <li className='ml-10 text-sm uppercase border-b-2 text-[#212529] border-[#F8F9FA] hover:border-[#212529] duration-300'>About</li>
+                          <li className='ml-10 text-sm uppercase border-b-2 text-[#212529] border-transparent hover:border-[#212529] duration-300'>About</li>
                       </Link>
                       <Link href="/#skills">
-                          <li className='ml-10 text-sm uppercase border-b-2 text-[#212529] border-[#F8F9FA] hover:border-[#212529] duration-300'>Skills</li>
+                          <li className='ml-10 text-sm uppercase border-b-2 text-[#212529] border-transparent hover:border-[#212529] duration-300'>Skills</li>
                       </Link>
                       <Link href="/#projects">
-                          <li className='ml-10 text-sm uppercase border-b-2 text-[#212529] border-[#F8F9FA] hover:border-[#212529] duration-300'>Project</li>
+                          <li className='ml-10 text-sm uppercase border-b-2 text-[#212529] border-transparent hover:border-[#212529] duration-300'>Project</li>
                       </Link>
                       <Link href="/#contact">
-                          <li className='ml-10 text-sm uppercase border-b-2 text-[#212529] border-[#F8F9FA] hover:border-[#212529] duration-300'>Contact</li>
+                          <li className='ml-10 text-sm uppercase border-b-2 text-[#212529] border-transparent hover:border-[#212529] duration-300'>Contact</li>
                       </Link>
                   </ul>
                   <div onClick={handelNav} className="md:hidden">
