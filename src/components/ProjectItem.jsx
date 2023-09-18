@@ -7,7 +7,7 @@ const ProjectItem = ({title, backgroundImg, projectID, Dtool}) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-sm shadow-gray-400 rounded-md p-4 group hover:backdrop-blur-sm bg-white/30'> 
         <Image 
-            className='rounded-md group-hover:opacity-5'
+            className='rounded-md group-hover:opacity-5 object-cover h-80'
             src={backgroundImg}
             alt='project'
             width='600'
@@ -26,6 +26,7 @@ const ProjectItem = ({title, backgroundImg, projectID, Dtool}) => {
         </div>
     </div>
   )
+
 }
 
 export default ProjectItem;
