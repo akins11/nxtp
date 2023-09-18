@@ -15,9 +15,9 @@ const ProjectDetails = ({ project }) => {
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase underline text-[#6C757D] pb-6'>{title}</p>
             <div className='grid md:grid-cols-2 gap-8'>
-                <div className='col-span-1 shadow-sm shadow-gray-400 rounded-md p-1'>
+                <div className='col-span-1 shadow-sm shadow-gray-400 rounded-md p-1 h-full'>
                     <Image 
-                        className='h-fit'
+                        className='object-cover h-80'
                         src={fullImage}
                         width="800"
                         height="600"
