@@ -64,19 +64,19 @@ export const dashboard = [
         projectLink: "https://akinwandeayomide.shinyapps.io/productDashboard/",
         githubLink: 'https://github.com/akins11/Product-Dashboard'
     },
+    // {
+    //     id: "7",
+    //     title: "Hotel Management",
+    //     description: `This project provides a comprehensive overview of the key performance indicators (KPIs) across multiple years and locations. With a focus on guests, reservations, and revenue, this dashboard offers valuable insights to inform strategic decision-making and drive continuous improvement within the organization.\nSome of the major features are multi-year comparison, hotel location based insights, guest metrics, revenue pattern and management.  Using interactive visualizations to explore the data in more detail and gain a deeper understanding of the organization performance. 
+    //     `,
+    //     image: '/dashboard-img/hotel-mgt.png',
+    //     fullImage: '/dashboard-img/hotel-mgt-full.png',
+    //     tools: ["R", "Flexdashboard", "Bootstrap"],
+    //     projectLink: "https://akins11.github.io/Hotel-management-dashboard/",
+    //     githubLink: 'https://github.com/akins11/Hotel-management-dashboard'
+    // },
     {
         id: "7",
-        title: "Hotel Management",
-        description: `This project provides a comprehensive overview of the key performance indicators (KPIs) across multiple years and locations. With a focus on guests, reservations, and revenue, this dashboard offers valuable insights to inform strategic decision-making and drive continuous improvement within the organization.\nSome of the major features are multi-year comparison, hotel location based insights, guest metrics, revenue pattern and management.  Using interactive visualizations to explore the data in more detail and gain a deeper understanding of the organization performance. 
-        `,
-        image: '/dashboard-img/hotel-mgt.png',
-        fullImage: '/dashboard-img/hotel-mgt-full.png',
-        tools: ["R", "Flexdashboard", "Bootstrap"],
-        projectLink: "https://akins11.github.io/Hotel-management-dashboard/",
-        githubLink: 'https://github.com/akins11/Hotel-management-dashboard'
-    },
-    {
-        id: "8",
         title: "Inventory Management",
         description: `The dashboard provides a comprehensive analysis and summaries of the overall SKU performance on fulfillment, quality inspection, revenue among others. It offers a centralized hub for inventory management, allowing users to monitor and track inventory levels, identify slow-moving items, and identify item quality. Users can also view detailed demand patterns, revenue generation, and inventory turnover, enabling data-driven decision-making to maximize profits and minimize waste.`,
         image: '/dashboard-img/inv-dash.png',
@@ -86,7 +86,7 @@ export const dashboard = [
         githubLink: 'https://github.com/akins11'
     },
     {
-        id: "9",
+        id: "8",
         title: "Inventory",
         description: `This dashboard offers a wide range of key performance indicators (KPIs) and advanced analytics to help in making data-driven decisions.\nThe dashboard provides a clear and concise overview of your inventory levels, allowing you to monitor and track-stock quantities. With the various insights products that are slow-movers or fast-movers can be identified, optimizing the restocking and reordering processes, and avoiding unnecessary holding costs.`,
         image: '/dashboard-img/pb-inventory-dashboard.png',
@@ -96,7 +96,7 @@ export const dashboard = [
         githubLink: 'https://github.com/akins11'
     },
     {
-        id: "10",
+        id: "9",
         title: "Product Sales",
         description: `By leveraging the capabilities of Power Bi, this dashboard offers a concise and insightful view of sales data, enabling business leaders to make data-driven decisions and optimize their sales strategies.\nIt offers several features such as sales performance overview, regional sales summaries, product category insights, among others and offers various benefits including enhance decision making improve sales forecasting, optimized sales strategies and better customer understanding.`,
         image: '/dashboard-img/sales-analysis.png',
@@ -110,7 +110,7 @@ export const dashboard = [
 
 export const ml = [
     {
-        id: "11",
+        id: "10",
         title: "PM2.5 Sensor offset Prediction",
         description: `Air pollution is a significant environmental concern, and monitoring particulate matter (PM) concentrations is crucial for maintaining public health and safety. PM2.5 sensors are widely used to measure PM concentrations;  however, these sensors can become faulty due to various reasons, leading to inaccurate readings. Detecting faulty sensors is challenging, and traditional methods are often time-consuming and labor-intensive. Machine learning algorithms offer a robust solution to address this problem.\nThe primary objective of this project is to develop a machine learning model capable of predicting sensor offset faults accurately.  The model will utilize historical data. various operations such data cleaning, feature engineering, model development, model evaluation, cross-validation among other were performed to improve the model.`,
         image: '/ml-img/pm25-chart.png',
@@ -120,7 +120,7 @@ export const ml = [
         githubLink: 'https://github.com/akins11/PM2.5-Sensor-Offset-Prediction'
     },
     {
-        id: "12",
+        id: "11",
         title: "Web Store Sales Prediction",
         description: `This Machine learning project seeks to accurately predict sales for an online fashion store based on various features such as Days Since last Purchase, number of Visits, days between purchases, sales per visit and number of unique items purchased.\nThe primary objective of this project is to develop a machine learning model capable of predicting sales accurately.  The model will utilize historical sales data. Additionally various operations such data cleaning, feature engineering, model development, model evaluation, validation among other were performed to improve the model performance when predicting future potential sales.`,
         image: '/ml-img/web-sales-prediction.png',
@@ -134,7 +134,7 @@ export const ml = [
 
 export const eda = [
     {
-        id: "13",
+        id: "12",
         title: "A/B Testing",
         description: `The primary objective was to assess the impact of a new advertising strategy on the conversion rate for a company's sneakers within it's community platforms. The performance of the newly introduced advertisement for the product was compared  with the pre-existing Public Service Announcement (PSA) of the same product. The core question was whether the advertisement had a measurable effect on increasing the number of purchases compared to the PSA.\nThis project measured and analyzed a range of vital metrics, including conversion rates, and user engagement within the community platforms. To substantiate the findings, statistical tests was applied. The results allowed for the confirmation of the alternative hypothesis, indicating that the new advertisement outperformed the PSA in driving conversions.        `,
         image: '/eda-img/ab-testing.png',
@@ -144,7 +144,7 @@ export const eda = [
         githubLink: 'https://github.com/akins11/a-b-testing'
     },
     {
-        id: "14",
+        id: "13",
         title: "Petroleum Product Prices",
         description: `This Project is a thorough examination of the price fluctuations of crucial petroleum products - Premium Motor Spirit (PMS), Diesel (AGO), Liquified Petroleum Gas (LPG), and Kerosene - within the Nigerian market. This analysis encompasses the timeframe from January 2020 to June 2023, focusing on the period before and after the removal of subsidies on these products.\nOne key dimension of this project involves tracking the changes in prices on a year-on-year (YoY) and month-on-month (MoM) basis, offering insights into the evolving pricing patterns over this duration. Geographically, the analysis extends to all Nigerian states and the Federal Capital Territory (Abuja), allowing for a detailed exploration of price variations across different regions. It's within this scope that the project also facilitates comparisons among states and regions, revealing disparities and trends in petroleum product prices. To convey these insights effectively, the project employs data visualization techniques such as charts, graphs, and interactive tables.`,
         image: '/eda-img/ppp.png',
@@ -154,7 +154,7 @@ export const eda = [
         githubLink: 'https://github.com/akins11/petroleum-product-prices'
     },
     {
-        id: "15",
+        id: "14",
         title: "Regional Sales Exploratory Analysis",
         description: `The analysis aims to provide insights into the top-performing products, most effective sales channels and highest-grossing locations thereby helping inform strategic decisions for optimizing sales operations.\nThe analysis involves understanding the various distribution of sales for several products, customer preferred method of purchase and sales pattern by location. `,
         image: '/eda-img/sql-eda.png',
