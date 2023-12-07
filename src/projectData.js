@@ -180,7 +180,7 @@ export const eda = [
         image: '/eda-img/satisfaction-report.png',
         fullImage: '/eda-img/satisfaction-report-full.png',
         tools: ["R", "Quarto"],
-        projectLink: "https://akins11.github.io/Exploratory-analysis-using-SQL/",
-        githubLink: 'https://github.com/akins11/Exploratory-analysis-using-SQL'
+        projectLink: "https://akins11.github.io/customer-satisfaction-report/",
+        githubLink: 'https://github.com/akins11/customer-satisfaction-report'
     }
 ];
