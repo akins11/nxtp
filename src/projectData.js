@@ -105,12 +105,22 @@ export const dashboard = [
         projectLink: "https://github.com/akins11/Sales-Report",
         githubLink: 'https://github.com/akins11/Sales-Report'
     },
+    {
+        id: "10",
+        title: "Top European Leagues",
+        description: `The goal of this project is to build a dashboard using Plotly Dash that displays various metrics of the 2023/2024 league season for different european football leagues.\nThe dashboad uses Pyhton and several frameworks to automate the ETL process. The data is extracted from skysport website using Dagster, transformed using dbt and stored using duckdb.\n The dashboard has mutiple pages, each showing the metrics of a specific league. There is also a page that allows the user to compare the metrics of two leagues.`,
+        image: '/dashboard-img/top-euro-leagues.png',
+        fullImage: '/dashboard-img/top-euro-leagues-full.png',
+        tools: ["Python", "Dash", "Dagster", "dbt", "Duckdb"],
+        projectLink: "#",
+        githubLink: '#'
+    },
 ];
 
 
 export const ml = [
     {
-        id: "10",
+        id: "11",
         title: "PM2.5 Sensor offset Prediction",
         description: `Air pollution is a significant environmental concern, and monitoring particulate matter (PM) concentrations is crucial for maintaining public health and safety. PM2.5 sensors are widely used to measure PM concentrations;  however, these sensors can become faulty due to various reasons, leading to inaccurate readings. Detecting faulty sensors is challenging, and traditional methods are often time-consuming and labor-intensive. Machine learning algorithms offer a robust solution to address this problem.\nThe primary objective of this project is to develop a machine learning model capable of predicting sensor offset faults accurately.  The model will utilize historical data. various operations such data cleaning, feature engineering, model development, model evaluation, cross-validation among other were performed to improve the model.`,
         image: '/ml-img/pm25-chart.png',
@@ -120,7 +130,7 @@ export const ml = [
         githubLink: 'https://github.com/akins11/PM2.5-Sensor-Offset-Prediction'
     },
     {
-        id: "11",
+        id: "12",
         title: "Web Store Sales Prediction",
         description: `This Machine learning project seeks to accurately predict sales for an online fashion store based on various features such as Days Since last Purchase, number of Visits, days between purchases, sales per visit and number of unique items purchased.\nThe primary objective of this project is to develop a machine learning model capable of predicting sales accurately.  The model will utilize historical sales data. Additionally various operations such data cleaning, feature engineering, model development, model evaluation, validation among other were performed to improve the model performance when predicting future potential sales.`,
         image: '/ml-img/web-sales-prediction.png',
@@ -134,7 +144,7 @@ export const ml = [
 
 export const eda = [
     {
-        id: "12",
+        id: "13",
         title: "A/B Testing",
         description: `The primary objective was to assess the impact of a new advertising strategy on the conversion rate for a company's sneakers within it's community platforms. The performance of the newly introduced advertisement for the product was compared  with the pre-existing Public Service Announcement (PSA) of the same product. The core question was whether the advertisement had a measurable effect on increasing the number of purchases compared to the PSA.\nThis project measured and analyzed a range of vital metrics, including conversion rates, and user engagement within the community platforms. To substantiate the findings, statistical tests was applied. The results allowed for the confirmation of the alternative hypothesis, indicating that the new advertisement outperformed the PSA in driving conversions.        `,
         image: '/eda-img/ab-testing.png',
@@ -144,7 +154,7 @@ export const eda = [
         githubLink: 'https://github.com/akins11/a-b-testing'
     },
     {
-        id: "13",
+        id: "14",
         title: "Petroleum Product Prices",
         description: `This Project is a thorough examination of the price fluctuations of crucial petroleum products - Premium Motor Spirit (PMS), Diesel (AGO), Liquified Petroleum Gas (LPG), and Kerosene - within the Nigerian market. This analysis encompasses the timeframe from January 2020 to June 2023, focusing on the period before and after the removal of subsidies on these products.\nOne key dimension of this project involves tracking the changes in prices on a year-on-year (YoY) and month-on-month (MoM) basis, offering insights into the evolving pricing patterns over this duration. Geographically, the analysis extends to all Nigerian states and the Federal Capital Territory (Abuja), allowing for a detailed exploration of price variations across different regions. It's within this scope that the project also facilitates comparisons among states and regions, revealing disparities and trends in petroleum product prices. To convey these insights effectively, the project employs data visualization techniques such as charts, graphs, and interactive tables.`,
         image: '/eda-img/ppp.png',
@@ -154,12 +164,22 @@ export const eda = [
         githubLink: 'https://github.com/akins11/petroleum-product-prices'
     },
     {
-        id: "14",
+        id: "15",
         title: "Regional Sales Exploratory Analysis",
         description: `The analysis aims to provide insights into the top-performing products, most effective sales channels and highest-grossing locations thereby helping inform strategic decisions for optimizing sales operations.\nThe analysis involves understanding the various distribution of sales for several products, customer preferred method of purchase and sales pattern by location. `,
         image: '/eda-img/sql-eda.png',
         fullImage: '/eda-img/sql-eda-full.png',
         tools: ["SQL", "MySQL", "Quarto"],
+        projectLink: "https://akins11.github.io/Exploratory-analysis-using-SQL/",
+        githubLink: 'https://github.com/akins11/Exploratory-analysis-using-SQL'
+    },
+    {
+        id: "16",
+        title: "Customer Satisfactory Survey Report",
+        description: `This is a report on a customer satisfaction survey that Coffee House, a fictional company, conducted to find out the reasons for its decreasing customer retention.\nThe report uses R to perform various analysis on the survey questions and Quarto to create a visually appealing presentation of the insights and recommendations.`,
+        image: '/eda-img/satisfaction-report.png',
+        fullImage: '/eda-img/satisfaction-report-full.png',
+        tools: ["R", "Quarto"],
         projectLink: "https://akins11.github.io/Exploratory-analysis-using-SQL/",
         githubLink: 'https://github.com/akins11/Exploratory-analysis-using-SQL'
     }
